@@ -27,8 +27,8 @@ class menuModel {
 		$nombre='';
 		if($IdParent!='')
 		{
-			$actualNote = $this->getMenuById($IdParent);
-			$nombre=$actualNote["nameM"];
+			$actualMenu = $this->getMenuById($IdParent);
+			$nombre=$actualMenu["nameM"];
 		}
 		try
         {    
@@ -54,7 +54,6 @@ class menuModel {
         }
     }
 
-		/* Save note */
 	public function updateMenu($id,$nameMenu,$DescriptionM,$idParent,$nameParent)
 	{
 		$this->getConection();
