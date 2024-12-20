@@ -1,0 +1,8 @@
+[20-Dec-2024 10:19:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "MyApp\Controllers\MenuController" not found in C:\xampp\htdocs\menu_oop\index.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\menu_oop\index.php on line 16
+[20-Dec-2024 10:20:03 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "MyApp\Controllers\MenuController" not found in C:\xampp\htdocs\menu_oop\index.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\menu_oop\index.php on line 16
