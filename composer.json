@@ -1,0 +1,22 @@
+{
+    "name": "menu/mvc-opp",
+    "description": "Proyecto de menu con PHP MVC OOP",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Salvador Villalobos",
+            "email": "salvadorvo2711@gmail.com",
+            "role": "Developer",
+            "homepage": "http://localhost/menu_oop"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    }
+}
